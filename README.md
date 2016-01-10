@@ -1,11 +1,11 @@
 # regplace
 JavaScript RegExp Replace for String Objects (Perl inspired)
 
-NOTICE: You'll need a double backslash for the escape character: \\w
-
 `
 <STRING>.regplace(PATTERN)(REPLACE)(FLAGS)
 `
+
+> NOTICE: You'll need a double backslash for the escape character: \\\w
 
 # Examples
 ```
