@@ -1,5 +1,5 @@
 # regplace
-JavaScript RegExp Replace for String Objects
+JavaScript RegExp Replace for String Objects (Perl inspired)
 
 `
 <STRING>.regplace(PATTERN)(REPLACE)(FLAGS)
