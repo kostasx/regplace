@@ -5,7 +5,7 @@ JavaScript RegExp Replace for String Objects (Perl inspired)
 <STRING>.regplace(PATTERN)(REPLACE, FLAGS)
 `
 
-> NOTICE: You'll need a double backslash for the escape character: \\\w
+> NOTICE: You'll need a double backslash for the escape character: e.g., see code below \\\w
 
 # Examples
 ```
