@@ -4,14 +4,11 @@ if ( ! String.prototype.regplace ) {
 
         var src = this.split('').join('');
 
-        return function(replace){
+        return function(replace, flags){
 
-            return function(flags){
-
-                var regExp = new RegExp(pattern, flags);
-                return src.replace(regExp, replace);
-
-            }
+            flags = flags || "";
+            var regExp = new RegExp(pattern, flags);
+            return src.replace(regExp, replace);
 
         }
 
